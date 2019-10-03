@@ -1,207 +1,214 @@
-*{ position:relative;
-  font-family:Barlow;
+* {
+  position: relative;
+  font-family: Barlow;
   /* border:solid 1px; */
-  font-weight:600;
-
-
+  font-weight: 600;
 }
 
-html,body{
-  width:100%;height:100%;
-  padding:0px;margin:0px;
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
 }
 
-.row{
-  padding:80px;
+.row {
+  padding: 80px;
 }
 
-.navar{
-  width:100%;
-
+.navar {
+  width: 100%;
 }
 
-header{
-  font-weight:900;
-  font-size:30px;
+header {
+  font-weight: 900;
+  font-size: 30px;
 }
 
-.name{
-  background-image:url(https://pcm.trplus.com.tw/650x650/sys-master/productImages/h49/h10/9303470964766/000000000016245501-gallery-01-20190519161428116.jpg);
-  opacity:0.9;
+.name {
+  background-image: url(https://pcm.trplus.com.tw/650x650/sys-master/productImages/h49/h10/9303470964766/000000000016245501-gallery-01-20190519161428116.jpg);
+  opacity: 0.9;
 }
 
-.name p{
-  font-weight:900;
-  font-size:40px;
-  position:center;
-  color:#3E4C5E;
+.name p {
+  font-weight: 900;
+  font-size: 40px;
+  position: center;
+  color: #3E4C5E;
 }
 
-.name h5{
-  position:center;
-  color:#3E4C5E;
-  position:center;
-  left:20%;
+.name h5 {
+  position: center;
+  color: #3E4C5E;
+  position: center;
+  left: 20%;
 }
 
-
-
-.circle2{
+.circle2 {
   width: 30px;
-  height:30px;
-  border-radius:50%;
-  border:none;
-  background-color:#002B55;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  background-color: #002B55;
   display: inline-block;
 }
 
-.circle1{
+.circle1 {
   width: 30px;
-  height:30px;
-  border-radius:50%;
-  border:none;
-  background-color:#f66767;
-    display: inline-block;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  background-color: #f66767;
+  display: inline-block;
 }
 
-
-.experiences p{
-  font-weight:900;
-  font-size:30px;
+.experiences p {
+  font-weight: 900;
+  font-size: 30px;
 }
 
-.col-work{
-  padding-left:90px;
-}
-.col-work img{
-  width:100%;
-  height:80%;
+.col-work {
+  padding-left: 90px;
 }
 
-.col-work p{
-  font-weight:900;
-  font-size:25px;
+.col-work img {
+  width: 100%;
+  height: 80%;
 }
 
-.edu_title{
-  font-weight:900;
-}
-.working_company{
-  font-weight:900;
+.col-work p {
+  font-weight: 900;
+  font-size: 25px;
 }
 
-.chart{
-  width:80%;height: 12px;
+.edu_title {
+  font-weight: 900;
+}
+
+.working_company {
+  font-weight: 900;
+}
+
+.chart {
+  width: 80%;
+  height: 12px;
   background-color: #ddd;
 }
 
-.bar1{
-  width:75%;height:8px;
-  background-color:#FFC300;
-}
-.bar2{
-  width:60%;height:8px;
-  background-color:#FFC300;
-  left:1px;
-  margin:1px;
-}
-.bar3{
-  width:70%;height:8px;
-  background-color:#FFC300;
-  left:1px;
-  margin:1px;
-}
-.bar4{
-  width:30%;height:8px;
-  background-color:#FFC300;
-  left:1px;
-  margin:1px;
-}
-.bar5{
-  width:50%;height:8px;
-  background-color:#FFC300;
-  left:1px;
-  margin:1px;
-}
-.bar6{
-  width:50%;height:8px;
-  background-color:#FFC300;
-  left:1px;
-  margin:1px;
+.bar1 {
+  width: 75%;
+  height: 8px;
+  background-color: #FFC300;
 }
 
-.change{
-  font-size:50px;
-  font-weight:900;
-  text-align:center;
+.bar2 {
+  width: 60%;
+  height: 8px;
+  background-color: #FFC300;
+  left: 1px;
+  margin: 1px;
 }
 
-.social{
-  text-align:center;
-
-}
-.social span{
-  font-size:25px;
-  font-weight:900;
-}
-
-i{
-  position:center;
+.bar3 {
+  width: 70%;
+  height: 8px;
+  background-color: #FFC300;
+  left: 1px;
+  margin: 1px;
 }
 
+.bar4 {
+  width: 30%;
+  height: 8px;
+  background-color: #FFC300;
+  left: 1px;
+  margin: 1px;
+}
 
-.Work container{
-  text-align:center;
+.bar5 {
+  width: 50%;
+  height: 8px;
+  background-color: #FFC300;
+  left: 1px;
+  margin: 1px;
+}
+
+.bar6 {
+  width: 50%;
+  height: 8px;
+  background-color: #FFC300;
+  left: 1px;
+  margin: 1px;
+}
+
+.change {
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.social {
+  text-align: center;
+}
+
+.social span {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+i {
+  position: center;
+}
+
+.Work container {
+  text-align: center;
   background-color: white;
 }
 
-.footer p{
+.footer p {
   font-size: 20px;
   font-weight: 600;
 }
 
-.picture1{
-  padding:100px;
+.picture1 {
+  padding: 100px;
   background-image: url(https://cdn.britannica.com/25/93825-050-D1300547/collection-newspapers.jpg);
-/* 滑鼠移進去可以變深 */
+  /* 滑鼠移進去可以變深 */
 }
 
-.picture1:hover{
-  filter:brightness(0.5);
-  transition-duration:0.5s;
+.picture1:hover {
+  filter: brightness(0.5);
+  transition-duration: 0.5s;
 }
 
-.picture2{
-  padding:100px;
+.picture2 {
+  padding: 100px;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVuh2Pdtc6FgWm9zc-ZtreTsIk8kXcNANRZXX5RTPWvFmk9kNL);
-
-}
-.picture2:hover{
-  filter:brightness(0.5);
-  transition-duration:0.5s;
 }
 
+.picture2:hover {
+  filter: brightness(0.5);
+  transition-duration: 0.5s;
+}
 
-.picture3{
-  padding:100px;
+.picture3 {
+  padding: 100px;
   background-image: url(https://www-assets.yoyogames.com/system/blogs/featured_images/000/000/121/original/games.png?1455705694);
-  opacity:1;
+  opacity: 1;
 }
 
-.picture3:hover{
-  filter:brightness(0.5);
-  transition-duration:0.5s;
+.picture3:hover {
+  filter: brightness(0.5);
+  transition-duration: 0.5s;
 }
 
-.text-panel{
-  color:white;
-  font-weight:900;
-  opacity:0.8;
-
+.text-panel {
+  color: white;
+  font-weight: 900;
+  opacity: 0.8;
 }
 
-.Work p{
-  font-size:38px;
-  position:center;
-
+.Work p {
+  font-size: 38px;
+  position: center;
 }
