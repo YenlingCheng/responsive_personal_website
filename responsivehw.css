@@ -2,8 +2,7 @@
   position: relative;
   font-family: Barlow;
   /* border:solid 1px; */
-  margin: 0;
-  padding: 0;
+  font-weight: 600;
 }
 
 html, body {
@@ -11,39 +10,6 @@ html, body {
   height: 100%;
   padding: 0px;
   margin: 0px;
-  box-sizing: border-box;
-}
-
-@media (max-width: 75em) {
-  html {
-    font-size: 60%;
-  }
-}
-
-/* 980px / 16px = 61.25em */
-@media (max-width: 61.25em) {
-  html {
-    font-size: 58%;
-  }
-}
-
-/* 460px / 16px = 28.75em */
-@media (max-width: 28.75em) {
-  html {
-    font-size: 55%;
-  }
-}
-
-@media (max-width: 22.5em) {
-  html {
-    font-size: 45%;
-  }
-}
-
-@media (max-width: 20em) {
-  html {
-    font-size: 43%;
-  }
 }
 
 .row {
@@ -62,142 +28,65 @@ header {
 .name {
   background-image: url(https://pcm.trplus.com.tw/650x650/sys-master/productImages/h49/h10/9303470964766/000000000016245501-gallery-01-20190519161428116.jpg);
   opacity: 0.7;
-  
 }
 
-.name p, h1 {
-  font-family:Special Elite;
+.name p {
   font-weight: 900;
-  vertical-align: middle;
+  font-size: 40px;
+  position: center;
   color: #3E4C5E;
-  text-shadow: gray 0.1em 0.1em 0.2em;
-  text-align: center;
-  font-size: 2em;
 }
 
 .name h5 {
-  vertical-align: middle;
-  color: white;
-  text-shadow: gray 0.1em 0.1em 0.2em;
-  text-align: center;
-  font-size: 3em;
-  opacity: 0.4;
+  position: center;
+  color: #3E4C5E;
+  position: center;
+  left: 20%;
 }
 
 .circle2 {
-  position: absolute;
-  overflow: hidden;
-  background-color: #002B55;
-  width: 7em;
-  height: 7em;
-  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
   border: none;
+  background-color: #002B55;
   display: inline-block;
-  bottom:-3em;
-  right:1em;
-  transform:scale(1,1);transition: all 1s ease-out;
 }
-
-
-.circle2:hover {
-  transform:scale(1.15, 1.15);
-}
-
 
 .circle1 {
-  position: absolute;
-  overflow: hidden;
-  background-color: rgba(235, 221, 226, 0.6);
-  display: inline-block;
-  width: 7em;
-  height: 7em;
-  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
   border: none;
+  background-color: #f66767;
   display: inline-block;
-  bottom:16em;
-  left: -3em;
-  transform:scale(1,1);transition: all 1s ease-out;
 }
-
-.circle1:hover {
-  transform:scale(1.15, 1.15);
-}
-
- .circle3 {
-  position:absolute;
-  background-color:rgba(210, 185, 211,0.8);
-  display: inline-block;
-  width: 7em;
-  height: 7em;
-  border-radius:100%;
-  border: none;
-  display: inline-block;
-  bottom:18em;
-  left:1em;
-}
-
-.circle3:hover {
-  transform:scale(1.15, 1.15);
-}
-
-.circle4{
-  position:absolute;
-  background-color:#B4CFEC;
-  display: inline-block;
-  width: 7em;
-  height: 7em;
-  border-radius: 100%;
-  border: none;
-  display: inline-block;
-  bottom:10em;
-  right:2em;
-  transform:scale(1,1);transition: all 1s ease-out;
-}
-
-.circle4:hover {
-  transform:scale(1.15, 1.15);
-}
-
 
 .experiences p {
   font-weight: 900;
-  font-size: 2em;
-  text-align: center;
-  border-radius: 10%;
-  background-color: #BCC6CC;
-  color: white;
-}
-
-.experiences h5 {
-  font-size: 1.5em;
-}
-
-.experiences {
-  background-color: rgba(245, 235, 228, 0.4);
+  font-size: 30px;
 }
 
 .col-work {
-  padding-left: 5em;
+  padding-left: 90px;
 }
 
 .col-work img {
   width: 100%;
+  height: 80%;
 }
 
 .col-work p {
   font-weight: 900;
-  font-size: 1.5em;
-  text-align: center;
+  font-size: 25px;
 }
 
 .edu_title {
   font-weight: 900;
-  color: #8C95A6;
 }
 
 .working_company {
   font-weight: 900;
-  color: #8C95A6;
 }
 
 .chart {
@@ -253,14 +142,9 @@ header {
 }
 
 .change {
-  font-size: 2.5em;
+  font-size: 50px;
   font-weight: 900;
   text-align: center;
-  font-family:Special Elite;
-}
-
-.contact {
-  background-color: rgba(245, 235, 228, 0.4);
 }
 
 .social {
@@ -268,21 +152,21 @@ header {
 }
 
 .social span {
-  font-size: 2em;
+  font-size: 25px;
   font-weight: 900;
-
 }
 
 i {
   position: center;
 }
 
-.work container {
-  position: center;
+.Work container {
+  text-align: center;
+  background-color: white;
 }
 
 .footer p {
-  font-size: 1.5em;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -300,8 +184,6 @@ i {
 .picture2 {
   padding: 100px;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVuh2Pdtc6FgWm9zc-ZtreTsIk8kXcNANRZXX5RTPWvFmk9kNL);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .picture2:hover {
@@ -326,21 +208,7 @@ i {
   opacity: 0.8;
 }
 
-.work p {
-  font-size: 3em;
+.Work p {
+  font-size: 38px;
   position: center;
-  color: white;
-  text-shadow: black 0.1em 0.1em 0.2em;
-}
-
-.work h2 {
-  font-size: 3em;
-  font-weight: 600;
-  text-align: center;
-  color: #9EA8AE;
-  top: 40px;
-}
-
-.footer {
-  background-color: rgba(245, 235, 228, 0.4);
 }
